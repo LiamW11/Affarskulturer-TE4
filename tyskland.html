@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-        <div id="header">
-      <h1>Affärskulturen i Tyskland</h1>
-        <button id="return-btn">Tillbaka till startsidan</button>
+      <div id="header">
+        <h1>Affärskulturen i Tyskland</h1>
+        <button id="return-btn" onclick="location.href='index.html'">
+          Tillbaka till startsidan
+        </button>
       </div>
 
       <h2>Inledning och första intryck</h2>
@@ -26,9 +28,15 @@
       </p>
 
       <h2>Religion och värderingar</h2>
-        <p>
-           Religion spelar idag en mer indirekt roll i det tyska affärslivet, men historiskt har både protestantism och katolicism haft stor betydelse för värderingarna. Tyskland är religiöst delat mellan katolska och protestantiska regioner. I vardagen möter man ofta värderingar som ordning, ansvarstagande, pliktkänsla och respekt för regler och lagar. Sekulariseringen är stark, särskilt i östra Tyskland, men kulturella spår av religionen lever kvar i synen på arbete, struktur och moral. 
-        </p>
+      <p>
+        Religion spelar idag en mer indirekt roll i det tyska affärslivet, men
+        historiskt har både protestantism och katolicism haft stor betydelse för
+        värderingarna. Tyskland är religiöst delat mellan katolska och
+        protestantiska regioner. I vardagen möter man ofta värderingar som
+        ordning, ansvarstagande, pliktkänsla och respekt för regler och lagar.
+        Sekulariseringen är stark, särskilt i östra Tyskland, men kulturella
+        spår av religionen lever kvar i synen på arbete, struktur och moral.
+      </p>
 
       <h2>Hierarki och beslutsfattande</h2>
       <p>
@@ -80,7 +88,7 @@
 
   <style>
     #return-btn {
-      background-color: #4CAF50;
+      background-color: #4caf50;
       border: none;
       color: white;
       text-align: center;
@@ -90,7 +98,7 @@
       cursor: pointer;
       border-radius: 8px;
       padding: 15px 30px;
-      height: fit-content
+      height: fit-content;
     }
 
     #return-btn:hover {
