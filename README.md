@@ -1,7 +1,7 @@
 Länder
 
 
-Malte: China
+Malte: Kina
 
 Max: Japan
 
@@ -9,4 +9,4 @@ Liam: Tyskland
 
 Oskar: Sverige
 
-Kristian Egypten
+Christian: Egypten
